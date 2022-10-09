@@ -13,28 +13,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/normalise.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
     <!--ШАПКА САЙТУ-->
     <header class="header">
-        <div class="container flex-container">
-            <nav class="flex-container">
+        <div class="container header__container">
+            <nav class="header__container">
 
-                <a href="index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
+                <a href="index.html" class="logo"><span class="logo__accent">Web</span>Studio</a>
 
 
-                <ul class="site-nav list">
-                    <li class="nav-item"> <a class="nav-link link current item-currents" href="./index.html">Студія</a></li>
-                    <li class="nav-item"> <a class="nav-link link item-currents" href="./portfolio.html">Портфоліо</a></li>
-                    <li class="nav-item"> <a class="nav-link link item-currents" href="">Контакти</a></li>
+                <ul class="header__nav list">
+                    <li class="nav__item"> <a class="nav__link link current header__currents" href="./index.html">Студія</a></li>
+                    <li class="nav__item"> <a class="nav__link link header__currents" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="nav__item"> <a class="nav__link link header__currents" href="">Контакти</a></li>
                 </ul>
             </nav>
-            <div class="nav-contacts">
-                <ul class="contacts-header list">
+            <div class="contacts__nav">
+                <ul class="header__contacts list">
 
-                    <li class="social-item-header header-mail">
-                        <a class="nav-contacts link" href="mailto:info@devstudio.com">
+                    <li class="header__social contacts__mail">
+                        <a class="contacts__nav contacts__link link" href="mailto:info@devstudio.com">
 
                             <svg viewBox="0 0 100 100" width="16">
                                 <use xlink:href="./images1/sprite.svg#icon-mail"></use>
@@ -44,9 +47,9 @@
                     </li>
 
 
-                    <li class="social-item-header header-tel">
+                    <li class="header__social contacts__tel">
 
-                        <a class=" nav-contacts link" href="tel:+380961111111">
+                        <a class=" contacts__nav contacts__link link" href="tel:+380961111111">
 
                             <svg viewBox="0 0 100 100" width="16">
                                 <use xlink:href="./images1/sprite.svg#icon-telephone"></use>
@@ -161,60 +164,60 @@
             <div class="container ">
                 <h2 hidden>Переваги</h2>
             </div>
-            <ul class="benefits-list">
-                <li class="benefits-item">
-                    <div class="benefits-svg ">
+            <ul class="benefits__list">
+                <li class="benefits__item">
+                    <div class="benefits__svg ">
 
-                        <svg viewBox="0 0 100 100" width="70" class="icon shape-codepen">
+                        <svg viewBox="0 0 100 100" width="70">
                             <use xlink:href="./images1/sprite.svg#icon-antena-1"></use>
                         </svg>
 
                     </div>
 
-                    <h3 class="title-about">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+                    <h3 class="benefits__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="benefits__description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                     </p>
 
                 </li>
-                <li class="benefits-item">
-                    <div class="benefits-svg">
+                <li class="benefits__item">
+                    <div class="benefits__svg">
 
-                        <svg viewBox="0 0 100 100" width="70" class="icon shape-codepen">
+                        <svg viewBox="0 0 100 100" width="70">
                             <use xlink:href="./images1/sprite.svg#icon-clock-2"></use>
                         </svg>
 
                     </div>
 
-                    <h3 class="title-about">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+                    <h3 class="benefits__title">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="benefits__description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                     </p>
 
                 </li>
-                <li class="benefits-item">
-                    <div class="benefits-svg">
+                <li class="benefits__item">
+                    <div class="benefits__svg">
 
-                        <svg viewBox="0 0 100 100" width="70" class="icon shape-codepen">
+                        <svg viewBox="0 0 100 100" width="70">
                             <use xlink:href="./images1/sprite.svg#icon-diagram-3"></use>
                         </svg>
 
                     </div>
 
-                    <h3 class="title-about">ПЛАНУВАННЯ</h3>
-                    <p class="description">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="benefits__title">ПЛАНУВАННЯ</h3>
+                    <p class="benefits__description">Так само консультація з широким активом значною мірою зумовлює.</p>
 
                 </li>
 
-                <li class="benefits-item">
-                    <div class="benefits-svg">
+                <li class="benefits__item">
+                    <div class="benefits__svg">
 
-                        <svg viewBox="0 0 100 100" width="70" class="icon shape-codepen">
+                        <svg viewBox="0 0 100 100" width="70">
                             <use xlink:href="./images1/sprite.svg#icon-astronaut-4"></use>
                         </svg>
 
                     </div>
 
-                    <h3 class="title-about">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                    <h3 class="benefits__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="benefits__description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                     </p>
 
                 </li>

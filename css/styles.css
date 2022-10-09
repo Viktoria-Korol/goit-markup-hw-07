@@ -91,7 +91,7 @@ img {
     height: auto;
 }
 
-/* ШАПКА */
+/* ШАПКА
 .header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -111,7 +111,7 @@ img {
 }
 
 /*ЛОГОТИП*/
-.logo {
+/* .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -125,19 +125,13 @@ img {
 
 .logo-accent {
     color: var(--accent-color);
-}
+} */
 
 /*НАВІГАЦІЯ*/
-.header .flex-container {
+/* .header .flex-container {
     display: flex;
     align-items: center;
 }
-
-.header .flex-container {
-    display: flex;
-    align-items: center;
-}
-
 .header .site-nav {
     column-gap: 50px;
 }
@@ -200,11 +194,11 @@ nav.flex-container {
     display: flex;
     column-gap: 10px;
     align-items: center;
-}
+} */
 
 
 /*КОНТАКТИ*/
-.contacts-header .link {
+/* .contacts-header .link {
     color: var(--contacts-and-paragraph-color);
     font-weight: 500;
     line-height: 1.14;
@@ -262,10 +256,10 @@ nav.flex-container {
 
 .site-nav .item:not(:last-child) {
     margin-right: 50px;
-}
+} */
 
 /* ЗАГОЛОВОК ГЕРОЙ */
-.banner {
+/* .banner {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images1/hero/slider-img1.png);
     background-color: var(--background-hero-and-footer);
     padding: 200px 0;
@@ -317,11 +311,11 @@ nav.flex-container {
     background-color: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-}
+} */
 
 
 /* ПЕРЕВАГИ */
-.benefits-list {
+/* .benefits-list {
     display: flex;
 
 }
@@ -357,7 +351,7 @@ nav.flex-container {
     font-weight: 700;
     line-height: 1.1;
     text-transform: uppercase;
-}
+}  */
 
 /* ЧИМ ЗАЙМАЄМОСЯ */
 .section-works {
@@ -419,6 +413,10 @@ nav.flex-container {
     bottom: 0%; }
 
 /* НАША КОМАНДА */
+.team-member {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 .benefits-svg {
     display: flex;
     justify-content: center;
@@ -1227,4 +1225,7 @@ color: rgba(255, 255, 255, 0.6);
  .form-element-footer {
      display: flex;
      margin-bottom: 15px;
+ }
+ .logo-accent{
+    color: var(--accent-color);
  }
