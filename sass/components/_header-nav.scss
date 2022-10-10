@@ -11,13 +11,29 @@
 
 
     .nav__link {
-            display: block;
-            padding-top: 32px;
-            padding-bottom: 32px;
-            color: $basic-color;
-    
-            position: relative;
-            transition: color $time-duration $cubic-bezier;
+        
+    display: flex;
+    color: $basic-color;
+    font-weight: 500;
+    line-height: 1.14;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+
+    .current & {
+        color: $accent-color;
+    }
+    transition: color $time-duration $cubic-bezier;
+ 
+
+        padding-top: 32px;
+        padding-bottom: 32px;
+        
+        position: relative;
+        transition: color $time-duration $cubic-bezier;
         }
 
 
@@ -51,23 +67,6 @@
     justify-content: flex-end;
 }
 
-.nav__link {
-    display: flex;
-    color: $basic-color;
-    font-weight: 500;
-    line-height: 1.14;
-    text-decoration: none;
-
-    &:hover,
-    &:focus {
-        color: $accent-color;
-    }
-
-    .current & {
-        color: $accent-color;
-    }
-    transition: color $time-duration $cubic-bezier;
-}
 
 .current::after {
     display: block;
