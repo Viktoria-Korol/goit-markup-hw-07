@@ -1,0 +1,56 @@
+/*ПОСТІЙНІ КЛІЄНТИ*/
+.section-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-item {
+    margin-left: 30px;
+    fill: $svg-color;
+}
+
+.clients-link {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid $svg-color;
+    border-radius: 4px;
+    fill: $svg-color;
+    transition: fill $time-duration $cubic-bezier,
+        border $time-duration $cubic-bezier;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-link{
+    &:hover ,
+    &:focus  {
+    fill: $accent-color;
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+}
+
+}
+
+
+
+// $basic-color
+// $accent-color
+// $contacts-and-paragraph-color
+// $logo-color
+// $white-color
+// $background-hero-and-footer
+// $secondary-bg-color
+// $card-set-gap
+// $border-prtf-img
+// $svg-color
+// $time-duration
+// $cubic-bezier

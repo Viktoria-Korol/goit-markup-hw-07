@@ -23,7 +23,7 @@ sans-serif; */
     --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-ul {
+/* ul {
     list-style: none;
 }
 
@@ -64,7 +64,7 @@ a {
     padding-bottom: 94px;
 }
 
-/*СБРОС*/
+/* СБРОС
 h1,
 h2,
 h3,
@@ -89,9 +89,9 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-}
+} */
 
-/* ЧИМ ЗАЙМАЄМОСЯ */
+/* ЧИМ ЗАЙМАЄМОСЯ
 .section-works {
     padding-bottom: 94px;
 }
@@ -148,9 +148,9 @@ img {
     width: 370px;
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
-    bottom: 0%; }
+    bottom: 0%; } */
 
-/* НАША КОМАНДА */
+/* НАША КОМАНДА
 .team-member {
     margin-top: 0;
     margin-bottom: 10px;
@@ -268,9 +268,9 @@ img {
     transition: fill var(--time-duration) var(--cubic-bezier),
     background-color var(--time-duration) var(--cubic-bezier);
 
-}
+} */
 
-/*ПОСТІЙНІ КЛІЄНТИ*/
+/* ПОСТІЙНІ КЛІЄНТИ
 .section-clients {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -307,11 +307,11 @@ img {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
     border-radius: 4px;
-}
+} */
 
 /*ПОРТФОЛІО*/
 
-/* СПИСОК КНОПОК */
+/* СПИСОК КНОПОК
 .section-portfolio {
     justify-content: center;
     margin-bottom: 50px;
@@ -359,9 +359,9 @@ img {
     border: 4px solid transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
-/* БЛОК З РОБОТАМИ */
+/* БЛОК З РОБОТАМИ
 .card-set {
     margin-bottom: 30px;
     list-style: none;
@@ -443,9 +443,9 @@ overflow: hidden;
 .list {
     padding: 0;
     margin: 0;
-}
+} */
 
-/* ФУТЕР */
+/* ФУТЕР
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -568,9 +568,9 @@ overflow: hidden;
 
 .social-media {
     margin-top: 20px;
-}
+} */
 
-/* FOOTER-FORM */
+/* FOOTER-FORM
 .subscription-form {
     width: 570px;
     margin-left: 93px;
@@ -578,12 +578,12 @@ overflow: hidden;
 .footer-mail{
     padding: 0;
 
-}
+} */
 
 
 
 
-/* MODAL */
+/* MODAL
 .backdrop{
     position: fixed;
     top: 0;
@@ -668,9 +668,9 @@ overflow: hidden;
         
         transition: fill var(--time-duration) var(--cubic-bezier);
     }
+ */
 
-
-    /* FORM */
+    /* FORM
 
     .form-element {
         display: flex;
@@ -863,9 +863,9 @@ overflow: hidden;
     }
 .label{
         cursor: default;
-}
+} */
 
-/* FOOTER FORM */
+/* FOOTER FORM
 .footer-form{
     margin-left: 93px;
     padding-bottom: 20px;
@@ -964,4 +964,4 @@ color: rgba(255, 255, 255, 0.6);
  }
  .logo-accent{
     color: var(--accent-color);
- }
+ } */
