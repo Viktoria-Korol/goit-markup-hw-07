@@ -306,6 +306,25 @@ img {
   height: auto;
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section .no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.section {
+  min-width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .header {
   border-bottom: 1px solid #ECECEC;
 }
@@ -475,6 +494,18 @@ img {
       -ms-flex-align: center;
           align-items: center;
   fill: #757575;
+}
+
+.nav__item .header__nav {
+  margin-right: 50px;
+}
+
+.nav__item:last-child .header__nav {
+  margin-right: 0;
+}
+
+.nav__item:not(:last-child) .header__nav {
+  margin-right: 50px;
 }
 
 /* ЗАГОЛОВОК ГЕРОЙ */

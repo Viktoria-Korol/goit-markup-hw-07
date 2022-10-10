@@ -43,15 +43,21 @@
 
 
 
+.header__nav{
+    .nav__item &{
+        margin-right: 50px;
+    }
+}
 
-// .site-nav .item {
-//     margin-right: 50px;
-// }
+.header__nav {
+    .nav__item:last-child &{
+         margin-right: 0;
+            }
+}
 
-// .site-nav .item:last-child {
-//     margin-right: 0;
-// }
-
-// .site-nav .item:not(:last-child) {
-//     margin-right: 50px;
-// }
+.header__nav {
+    .nav__item:not(:last-child) &{
+        margin-right: 50px;
+        }
+}
+ 
