@@ -13,51 +13,56 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/normalise.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
     <!--Шапка профиля-->
 
     <header class="header">
-        <div class="container flex-container">
-            <nav class="flex-container">
-
-                <a href="index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
-
-
-                <ul class="site-nav list">
-                    <li class="nav-item"> <a class="nav-link link " href="./index.html">Студія</a></li>
-                    <li class="nav-item"> <a class="nav-link link current" href="./portfolio.html">Портфоліо</a></li>
-                    <li class="nav-item"> <a class="nav-link link" href="">Контакти</a></li>
+        <div class="container header__container">
+            <nav class="header__container">
+    
+                <a href="index.html" class="logo"><span class="logo__accent">Web</span>Studio</a>
+    
+    
+                <ul class="header__nav list">
+                    <li class="nav__item"> <a class="nav__link link header__currents" href="./index.html">Студія</a>
+                    </li>
+                    <li class="nav__item"> <a class="nav__link link current header__currents" href="./portfolio.html">Портфоліо</a>
+                    </li>
+                    <li class="nav__item"> <a class="nav__link link header__currents" href="">Контакти</a></li>
                 </ul>
             </nav>
-            <div class="nav-contacts">
-                <ul class="contacts-header list">
-
-                    <li class="social-item-header header-mail">
-                        <a class="nav-contacts link" href="mailto:info@devstudio.com">
-
+            <div class="contacts__nav">
+                <ul class="header__contacts list">
+    
+                    <li class="header__social contacts__mail">
+                        <a class="contacts__nav contacts__link link" href="mailto:info@devstudio.com">
+    
                             <svg viewBox="0 0 100 100" width="16">
                                 <use xlink:href="./images1/sprite.svg#icon-mail"></use>
                             </svg>info@devstudio.com
-
+    
                         </a>
                     </li>
-
-
-                    <li class="social-item-header header-tel">
-
-                        <a class=" nav-contacts link" href="tel:+380961111111">
-
+    
+    
+                    <li class="header__social contacts__tel">
+    
+                        <a class=" contacts__nav contacts__link link" href="tel:+380961111111">
+    
                             <svg viewBox="0 0 100 100" width="16">
                                 <use xlink:href="./images1/sprite.svg#icon-telephone"></use>
                             </svg>+38 096 111 11 11
                         </a>
                     </li>
-
+    
                 </ul>
             </div>
-
+    
         </div>
     </header>
 
