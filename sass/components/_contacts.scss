@@ -15,7 +15,13 @@
         &:focus {
             color: $accent-color;
         }
-}
+                &:hover,
+                &:focus {
+                    fill: $accent-color;
+                    transition: fill $time-duration $cubic-bezier;
+                }
+            } 
+       
 
 .header__currents {
     transition: fill $time-duration $cubic-bezier;

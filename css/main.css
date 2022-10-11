@@ -462,6 +462,11 @@ img {
 .contacts__link:hover, .contacts__link:focus {
   color: #2196f3;
 }
+.contacts__link:hover, .contacts__link:focus {
+  fill: #2196f3;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .header__currents {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1310,6 +1315,7 @@ img {
   line-height: 1.16px;
   letter-spacing: 0.01em;
   color: #757575;
+  cursor: default;
 }
 
 .label-name {
@@ -1335,6 +1341,11 @@ img {
   -webkit-transform: translateY(-70%);
           transform: translateY(-70%);
 }
+.input-svg:focus {
+  fill: #2196f3;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .input-form {
   margin-bottom: 10px;
@@ -1347,21 +1358,11 @@ img {
   border-radius: 4px;
   width: 100%;
 }
-
 .input-form:focus {
   outline: none;
   border: 1px solid #2196f3;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.input-form:focus {
-  fill: #2196f3;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.input-svg:focus {
   fill: #2196f3;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1383,7 +1384,6 @@ img {
   line-height: 14px;
   letter-spacing: 0.01em;
 }
-
 .form-textarea:focus {
   outline: none;
   border: 1px solid #2196f3;
@@ -1421,7 +1421,6 @@ img {
   margin-top: 30px;
   margin-left: 124px;
 }
-
 .form-btn:hover, .form-btn:focus {
   background-color: #188CE8;
 }
@@ -1511,10 +1510,6 @@ img {
   position: absolute;
   height: 1px;
   background-color: #2196f3;
-}
-
-.label {
-  cursor: default;
 }
 
 /* СПИСОК КНОПОК */
