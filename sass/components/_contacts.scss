@@ -21,7 +21,7 @@
     transition: fill $time-duration $cubic-bezier;
 }
 
-.header-contacts {
+.header__contacts {
     transition: color $time-duration $cubic-bezier, fill $time-duration $cubic-bezier;
 
     &:hover,
