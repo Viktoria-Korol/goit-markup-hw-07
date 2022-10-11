@@ -39,12 +39,8 @@
        left: 12px;
        transform: translateY(-70%);
 
-    &:focus {
-            fill: $accent-color;
-            transition: fill $time-duration $cubic-bezier;
-        }
+    
    }
-
 
    .input-form {
        margin-bottom: 10px;
@@ -63,6 +59,10 @@
                 transition: fill $time-duration $cubic-bezier;
         
             }
+            &:focus {
+            fill: $accent-color;
+            transition: fill $time-duration $cubic-bezier;
+        }
    }
 
    .form-textarea {
